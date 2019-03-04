@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.yash.javalastyear",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "javalastyear",
+    "packageName": "com.yash.javalastyear",
+    "packageFolder": "com/yash/javalastyear",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTVjMzYxYzI2MzEwZDJkNWM2YzQwMDUzMDI1ZDkzNzkyNjAzZTM3NjM2MjYyMWU4MDdiMTQyZDcyMmM4YmU1ZGMwNzBmOGU4MzE3ODVhOWFkNWRkOTdlMWY3NzViYjFmZjJiOThhZTgxMmI3ZjgwNGZkNTczOTk1MzJkZmMzNWY=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "skipClient": true
+  }
+}
