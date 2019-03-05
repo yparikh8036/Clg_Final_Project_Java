@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "taxationCategoryID",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "catName",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20190305035927",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "taxation_category",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity TaxationUpdate.
+    -->
+    <changeSet id="20190305040245-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="taxation_category_id"
+                                 baseTableName="taxation_update"
+                                 constraintName="fk_taxation_update_taxation_category_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="taxation_category"/>
+
+        <addForeignKeyConstraint baseColumnNames="employee_id"
+                                 baseTableName="taxation_update"
+                                 constraintName="fk_taxation_update_employee_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="employee"/>
+
+    </changeSet>
+</databaseChangeLog>

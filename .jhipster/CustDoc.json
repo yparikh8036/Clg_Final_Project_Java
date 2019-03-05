@@ -1,0 +1,50 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "customer",
+            "otherEntityName": "customer",
+            "relationshipType": "one-to-one",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "useJPADerivedIdentifier": false,
+            "otherEntityRelationshipName": "custDoc",
+            "otherEntityRelationshipNameUndefined": false
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "custDocID",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "docTitle",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "docFile",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "docRemarks",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "issueDate",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "dueDate",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20190305034419",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "cust_doc",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

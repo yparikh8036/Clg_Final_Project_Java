@@ -1,15 +1,15 @@
 package com.yash.javalastyear.repository;
 
-import com.yash.javalastyear.domain.User;
+import com.yash.javalastyear.domain.CustAccDoc;
 import org.springframework.data.jpa.repository.*;
 import org.springframework.stereotype.Repository;
 
 
 /**
- * Spring Data  repository for the User entity.
+ * Spring Data  repository for the CustAccDoc entity.
  */
 @SuppressWarnings("unused")
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface CustAccDocRepository extends JpaRepository<CustAccDoc, Long> {
 
 }

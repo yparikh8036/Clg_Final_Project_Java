@@ -1,0 +1,49 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "employee",
+            "otherEntityName": "employee",
+            "relationshipType": "one-to-one",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "useJPADerivedIdentifier": false,
+            "otherEntityRelationshipName": "internalDoc"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "internalDocID",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "docTitle",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "docFile",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "docRemarks",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "issueDate",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "dueDate",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20190305033640",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "internal_doc",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

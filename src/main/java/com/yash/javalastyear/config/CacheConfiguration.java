@@ -41,6 +41,19 @@ public class CacheConfiguration {
             cm.createCache(com.yash.javalastyear.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.yash.javalastyear.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.yash.javalastyear.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.Employee.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.Customer.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.Service.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.CustomerService.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.Bill.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.InternalDoc.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.CustContact.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.CustDoc.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.CustAccDoc.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.CustSchedule.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.Work.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.TaxationCategory.class.getName(), jcacheConfiguration);
+            cm.createCache(com.yash.javalastyear.domain.TaxationUpdate.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
